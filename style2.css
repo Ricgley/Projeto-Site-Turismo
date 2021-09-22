@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+
+}
+.galeria {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    background-color: silver;
+    justify-content: center;
+}
+.item {
+    width: 560px;
+    text-align: justify;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    
+  }
+  h2 {
+      text-align: center;
+  }
+  p {
+      width: 90%;
+      
+  }
+
+.barra-logo{
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	height: 150px;
+	margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 85px;
+}
+.logo {
+    display: flex;
+    width: 199px;
+    height: 69px;
+    
+}
+.barra-base {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-bottom: 0;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.logo:hover {
+    width: 220px;
+    height: 80px;
+    
+}

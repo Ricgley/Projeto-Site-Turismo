@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Ponto Turistico</title>
+
+      <link rel="stylesheet" href="gallery.theme.css">
+      <link rel="stylesheet" href="gallery.min.css">
+      <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="text.css">
+
+<style>
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}      
+
+.gradient {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      background: linear-gradient(-45deg, #ac2b2b, rgb(158, 228, 195), #08ebf7, #4B086D, #ACC0FE, #dd2db1);
+      background-size: 200% 200%; 
+      animation: colors 5s ease infinite;
+      }
+
+      @keyframes colors {
+      0% {
+      background-position: 0% 30%;
+      }
+      25% {
+      background-position: 25% 50%;
+      }
+      50%{
+      background-position: 50% 75%;
+      }
+      75% {
+      background-position: 75% 100%;
+      }
+      100% {
+      background-position: 100% 75%;
+      }
+      75% {
+      background-position: 75% 100%;
+      }
+      50%{
+      background-position: 50% 75%;
+      }
+      25% {
+      background-position: 25% 50%;
+      }
+   }      
+
+</style>
+
+</head>
+<!-- Plano de Fundo  -->
+<body class="gradient">
+
+<!-- Barra superior       -->
+      <header class="barra-logo">
+
+<!-- Texto dinamico -->
+            <div class="container">
+                  <div class="estatico"></div>
+                  <ul class="dinamico">
+                      <li><span>Turismo</span></li>
+                      <li><span>Cultura</span></li>
+                      <li><span>Lazer</span></li>
+                      <li><span>Férias</span></li>
+                  </ul>
+              </div>
+<!-- Logo Serra        -->
+            <div class="logo">
+                  <img src="imagens/logo.png" />
+            </div>
+
+      </header>
+     
+      <div class="conteudo">
+
+            <div class="gallery autoplay items-4">
+
+            <div id="item-1" class="control-operator"></div>
+            <div id="item-2" class="control-operator"></div>
+            <div id="item-3" class="control-operator"></div>
+            <div id="item-4" class="control-operator"></div>
+
+            <figure class="item">
+                  <h1><img src="imagens/banner2.png"></h1>
+            </figure>
+
+            <figure class="item">
+                  <h1><img src="imagens/banner1.png"></h1>
+            </figure>
+
+            <figure class="item">
+                  <h1><img src="imagens/banner3.png"></h1>
+            </figure>
+
+            <figure class="item">
+                  <h1><img src="imagens/banner4.png"></h1>
+            </figure>
+
+            <div class="controls">
+                  
+                  <a href="#item-1" class="control-button">.</a>
+                  <a href="#item-2" class="control-button">.</a>
+                  <a href="#item-3" class="control-button">.</a>
+                  <a href="#item-4" class="control-button">.</a>
+            </div> 
+            
+      </div> 
+
+            <div class="texto">
+                  
+                  <h2>Município da Serra... Você precisa conhecer!</h2><br>
+                        <p>O municipio da Serra é o mais populoso do estado do Espírito Santo, segundo pesquisa do IBGE
+                              (#IBGE2021). </p>
+                        <p>Está localizado na Microrregião de Vitória e na Mesorregião Central Espírito-Santense. <br>
+                        <p> Pertence à Região Metropolitana de Vitória e está situado 27 quilômetros ao norte da capital
+                              do estado. A sede do município, porém, está mais afastada, ao norte do monte Mestre
+                              Álvaro, grande maciço de origem vulcânica que marca a geografia do município.</p>
+                        <p>Outro ponto importante é a Praia de Jacaraípe, conhecida como sede de campeonatos de surfe,
+                              assim como pequenas vilas pesqueiras como Manguinhos. Já na localidade de Nova Almeida,
+                              balneário no litoral norte do município, encontra-se, na antiga Igreja dos Reis Magos, o
+                              primeiro quadro a óleo pintado no Brasil. Tem ainda outro balneário, a praia de Carapebus.
+                        </p><br>
+
+                        <h2>Um pouco de história</h2><br>
+                        <p>Seus fundadores foram Maracajá-guaçu (nome que, traduzido do tupi, significa grande
+                              gato-maracajá), pai de Arariboia e chefe dos índios temiminós e o padre jesuíta Brás
+                              Lourenço, que, a 8 de dezembro de 1603, terminaram a obra da igreja e, assim, fundaram a
+                              Aldeia de Nossa Senhora da Conceição da Serra, hoje a cidade da Serra.</p>
+                        <p>O município da Serra foi criado em 1833, com território desmembra­do do município de Vitória,
+                              através da resolução do Conselho de Governo de 2 de abril de 1833 e instalado em 19 de
+                              agosto daquele ano.</p>
+                        <p>Em 19 de março de 1849, foi deflagrado um movimento de libertação dos es­cravos em São José
+                              do Queimado (atualmente, um distrito da Serra), que foi desmobilizado pela força militar
+                              da época e que levou a enforcamento dois dos líderes da revolta: Chico Prego e João da
+                              Viúva. O primeiro, enforcado na então Vila de Nossa Senhora da Conceição da Serra e o
+                              segundo, enforcado na Vila de São José do Queimado.</p>
+                        <p>Em 6 de novembro de 1870, a sede do município foi elevada à categoria de cidade. A instalação
+                              foi solene, com festa orga­nizada pelo deputado provincial Major Joaquim Pereira Franco
+                              Pis­sarra e políticos locais no dia do aniversário de Dom Pedro II - 31 de dezembro de
+                              1875. O major Pissarra foi o autor da lei que transfor­mou a vila da Serra em cidade.</p><br>
+
+            </div>
+      </div>
+
+      </body>
+<!-- Texto Convite   -->
+<h1 style="width:60%">Quer conhecer os principais <br>pontos turisticos da região? </h1>
+
+<!-- Ancora Pagina 2 -->
+
+<a href="index2.html" target="_self" class="buttonClass">CLIQUE AQUI!</a>
+
+<!-- video youtube  -->
+<iframe class="video" width="60%" height="560px" src="https://www.youtube-nocookie.com/embed/WD4aEDjXARM"
+      title="Conhecendo o Municipio da Serra" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+
+<footer class="barra-base">
+<p>&reg; Todos os direitos reservados Copyright &copy; 2021</p>
+</footer>
+</html>
